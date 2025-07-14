@@ -1,0 +1,48 @@
+# # Criando uma lista de compras
+# lista_de_compras = ["Maçã", "Banana", "Leite", "Pão", "Queijo"]
+
+# # Adicionando um item à lista
+# lista_de_compras.append("Ovos")
+
+# # Removendo um item da lista
+# lista_de_compras.remove("Banana")
+
+# # Exibindo a lista
+# print("Lista de Compras:")
+# for item in lista_de_compras:
+#     print("- " + item)
+
+# # Definindo uma tupla de coordenadas geográficas
+# coordenadas_gps = (40.7128, -74.0060)
+
+# # Exibindo as coordenadas
+# print("Coordenadas GPS:")
+# print("Latitude:", coordenadas_gps[0])
+# print("Longitude:", coordenadas_gps[1])
+
+# numero = -1
+# for _ in range(3):  # Supondo um número máximo de tentativas (3) arbitrário
+#     numero = int(input("\n Digite um número positivo: "))
+#     if numero > 0:
+#         break
+
+# print("\nVocê digitou:", numero)
+
+# numero = -1
+# while numero <= 0:
+#     numero = int(input("\nDigite um número positivo: "))
+
+# print("\n Você digitou:", numero)
+
+# contador = 0
+# while contador < 5:
+#     print(contador, end="      ")
+#     contador += 1
+
+
+# encomendas = input("Digite os números das encomendas separados por vírgula: ").split(',')
+# try:
+#     for encomenda in encomendas:
+#         print(int(encomenda))
+# except ValueError:
+#     print("Uma das entradas não é um número válido.")
